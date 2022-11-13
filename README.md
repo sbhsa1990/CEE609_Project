@@ -5,3 +5,7 @@ Forest fire is considered as an environmental hazard which frequently threats th
 MODIS MOD14A2 fire products between 2000 to 2021 has been regarded as the target of classification. Products of MOD14A2, which consists of fire-mask and quality affirmation algorithm, has the spatial and temporal resolution of 1-kilometer and 8 days and provides gridded level-3 data in the Sinusoidal projection. The data has been downloaded from "APPEEARS" platform [https://appeears.earthdatacloud.nasa.gov/]. Using this link, in section of "area samples" you must upload the "Golestan_Shapefile.zip" as the selected region. For date you must select the 2000 to 2021, and for section of "layers to include in the sample" the "Terra MODIS Thermal Anomalies and Fire, MOD14A3.006, 1000m, 8day" must be selected. The NetCDF-4 has also been selected as the output extension [MODIS_Golestan.nc].
 
 
+Using "Extract_From_MODIS.py", the geographical location (Latitude and Longitude) of points with three fire mask (no fire, medium fire confidence and high fire confidence) has been extracted.
+
+Using these Latitude and Longitude, the input varibles from "Famine Early Warning Systems Network (FEWS NET) Land Data Assimilation System (FLDAS)" have been extracted [https://disc.gsfc.nasa.gov/datasets/FLDAS_NOAH001_G_CA_D_001/summary].
+
