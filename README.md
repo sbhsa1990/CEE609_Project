@@ -10,41 +10,7 @@ Using "Extract_From_MODIS.py", the geographical location (Latitude and Longitude
 Using "Files_location.xlsx", the observed varibles from "Famine Early Warning Systems Network (FEWS NET) Land Data Assimilation System (FLDAS)" have been extracted.
 The employed “FLDAS_NOAH001_G_CA_D” includes 18 variables modeled from the NOAH 3.6.1 and Land Information System (LIS7). One of the major advantage of this satellite, which makes it more suitable for the subject of this study, is its particular concentration on Central Asia region with specific spatial coverage of 21.0°~30.0°E and 56.0°~100.0°N. FLDAS also benefits from very fine spatial resolution of 0.01° and daily temporal resolution which stretches from 2000-10-01 to the present day [https://disc.gsfc.nasa.gov/datasets/FLDAS_NOAH001_G_CA_D_001/summary]. 
 
-   Variables name            Description:  
-1 'Swnet_tavg'                surface_net_downward_shortwave_flux;
-2 'Rainf_tavg'                precipitation_rate;
+The utilized variables include Surface net downward shortwave flux, precipitation rate, total evapotranspiration, surface runoff, surface radiative temperature,   rainfall flux, air temperature, specific humidity, surface air pressure, surface downwelling shortwave flux in air, soil moisture content @ 10cm, 40cm, 100cm and 200 cm, Soil_temperature @ 10cm, 40cm, 100cm and 200 cm.
 
-3 'Evap_tavg'                 total_evapotranspiration 
-
-4 'Qs_tavg'                   surface_runoff_amount  
-
-5 'RadT_tavg'                 surface_radiative_temperature  
-
-6 'Rainf_f_tavg'              rainfall_flux
-
-7 'Tair_f_tavg'               air_temperature 
-
-8 'Qair_f_tavg'               specific_humidity 
-
-9 'Psurf_f_tavg'              surface_air_pressure 
-
-10 'SWdown_f_tavg'            surface_downwelling_shortwave_flux_in_air
-
-11 'SoilMoi00_10cm_tavg'      soil moisture content @ 10cm
-
-12 'SoilMoi10_40cm_tavg'      soil moisture content @ 40cm
-
-13 'SoilMoi40_100cm_tavg'     soil moisture content @ 100cm
-
-14 'SoilMoi100_200cm_tavg'    soil moisture content @ 200cm
-
-15 'SoilTemp00_10cm_tavg'     soil_temperature @ 10cm
-
-16 'SoilTemp10_40cm_tavg'     soil temperature @ 40cm
-
-17 'SoilTemp40_100cm_tavg'    soil temperature @ 100cm
-
-18 'SoilTemp100_200cm_tavg'   soil temperature @ 200cm
- 
 Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and also by utilizing the "Extract_FLDAS.py" code,  values of 18 variables at each points is extracted and aggregated as the Final dataset to be used as regression model input.
 
