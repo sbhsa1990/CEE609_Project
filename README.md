@@ -11,9 +11,8 @@ Using "Files_location.xlsx", the observed varibles from "Famine Early Warning Sy
 The employed “FLDAS_NOAH001_G_CA_D” includes 18 variables modeled from the NOAH 3.6.1 and Land Information System (LIS7). One of the major advantage of this satellite, which makes it more suitable for the subject of this study, is its particular concentration on Central Asia region with specific spatial coverage of 21.0°~30.0°E and 56.0°~100.0°N. FLDAS also benefits from very fine spatial resolution of 0.01° and daily temporal resolution which stretches from 2000-10-01 to the present day [https://disc.gsfc.nasa.gov/datasets/FLDAS_NOAH001_G_CA_D_001/summary]. 
 
    Variables name            Description:  
-1 'Swnet_tavg'                surface_net_downward_shortwave_flux
-
-2 'Rainf_tavg'                precipitation_rate
+1 'Swnet_tavg'                surface_net_downward_shortwave_flux;
+2 'Rainf_tavg'                precipitation_rate;
 
 3 'Evap_tavg'                 total_evapotranspiration 
 
