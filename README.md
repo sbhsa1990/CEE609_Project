@@ -12,22 +12,39 @@ The employed “FLDAS_NOAH001_G_CA_D” includes 18 variables modeled from the N
 
    Variables name            Description:  
 1 'Swnet_tavg'                surface_net_downward_shortwave_flux 
+
 2 'Rainf_tavg'                precipitation_rate
+
 3 'Evap_tavg'                 total_evapotranspiration 
-4 'Qs_tavg'                   surface_runoff_amount   
-5 'RadT_tavg'                 surface_radiative_temperature    
+
+4 'Qs_tavg'                   surface_runoff_amount  
+
+5 'RadT_tavg'                 surface_radiative_temperature  
+
 6 'Rainf_f_tavg'              rainfall_flux
-7 'Tair_f_tavg'               air_temperature  
-8 'Qair_f_tavg'               specific_humidity   
-9 'Psurf_f_tavg'              surface_air_pressure  
+
+7 'Tair_f_tavg'               air_temperature 
+
+8 'Qair_f_tavg'               specific_humidity 
+
+9 'Psurf_f_tavg'              surface_air_pressure 
+
 10 'SWdown_f_tavg'            surface_downwelling_shortwave_flux_in_air
+
 11 'SoilMoi00_10cm_tavg'      soil moisture content @ 10cm
+
 12 'SoilMoi10_40cm_tavg'      soil moisture content @ 40cm
+
 13 'SoilMoi40_100cm_tavg'     soil moisture content @ 100cm
+
 14 'SoilMoi100_200cm_tavg'    soil moisture content @ 200cm
+
 15 'SoilTemp00_10cm_tavg'     soil_temperature @ 10cm
+
 16 'SoilTemp10_40cm_tavg'     soil temperature @ 40cm
+
 17 'SoilTemp40_100cm_tavg'    soil temperature @ 100cm
+
 18 'SoilTemp100_200cm_tavg'   soil temperature @ 200cm
  
 Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and also by utilizing the "Extract_FLDAS.py" code,  values of 18 variables at each points is extracted and aggregated as the Final dataset to be used as regression model input.
