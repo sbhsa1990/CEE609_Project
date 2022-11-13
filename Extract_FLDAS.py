@@ -78,10 +78,10 @@ for index, row in cities.iterrows():
                 
             Z1 = data.variables[variable][:, min_index_lat, min_index_lon] 
         
-            f = e.append(pd.DataFrame(Z1))
-            f.reset_index(drop=True, inplace=True)
+f = e.append(pd.DataFrame(Z1))
+f.reset_index(drop=True, inplace=True)
                 
-file_name = location + variable + '.xlsx' 
+file_name = Variable + '.xlsx' 
  # saving the excel
 f.to_excel(file_name)
 
