@@ -12,7 +12,6 @@ The employed “FLDAS_NOAH001_G_CA_D” includes 18 variables modeled from the N
 
    Variables name            Description:  
 1 'Swnet_tavg'                surface_net_downward_shortwave_flux 
-
 2 'Rainf_tavg'                precipitation_rate
 
 3 'Evap_tavg'                 total_evapotranspiration 
