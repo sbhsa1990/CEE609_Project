@@ -12,5 +12,7 @@ The employed “FLDAS_NOAH001_G_CA_D” includes 18 variables modeled from the N
 
 The utilized variables include Surface net downward shortwave flux, precipitation rate, total evapotranspiration, surface runoff, surface radiative temperature,   rainfall flux, air temperature, specific humidity, surface air pressure, surface downwelling shortwave flux in air, soil moisture content @ 10cm, 40cm, 100cm and 200 cm, Soil_temperature @ 10cm, 40cm, 100cm and 200 cm.
 
-Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and also by utilizing the "Extract_FLDAS.py" code,  values of 18 variables at each points is extracted and aggregated as the Final dataset to be used as regression model input.
+Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and also by utilizing the "Extract_FLDAS.py" code,  values of 18 variables at each points is extracted and aggregated as the Final dataset to be used as regression model input. However, pre processing this initial dataset as well as considreing the multicollinearity between the variables leads to the optimal dataset containing only 10 most correlated variales which can be seen in "Inputs_dataset.xlsx" file in the repository.
+
+This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm.
 
