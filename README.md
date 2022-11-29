@@ -14,5 +14,5 @@ The utilized variables include Surface net downward shortwave flux, precipitatio
 
 Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and also by utilizing the "Extract_FLDAS.py" code,  values of 18 variables at each points is extracted and aggregated as the Final dataset to be used as regression model input. However, pre processing this initial dataset as well as considreing the multicollinearity between the variables leads to the optimal dataset containing only 10 most correlated variales which can be seen in "Inputs_dataset.xlsx" file in the repository.
 
-This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm.
+This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm. The Gradient Boosting classification has been employed form the "Scikit-Learn" and the parameters have been optimized so that the best results could be achieved. Next, Using the "Combination_Analysis.py" pythone code the most optimal combination of our initial 10 input has been extracted based on Precision, Recall, Balanced accuracy and F1 score classification accuracy metrics.
 
