@@ -24,5 +24,12 @@ The correspondong CMIP6 variables to [Qair, SoilMoi, Swnet, Tair] are respective
 
 Next, we need to find out which CMIP6 SSPs are in better correlation with FLDAS's [Qair, SoilMoi, Swnet, Tair]. This task is carried out by utilizong the Scatter-plot visualization metric which represented as "Scatter_plot.py".
 
-Heatmap has been employed As another graphical evaluator. In order to obtain this plot we first need to find the accuracy metrics such as R (Correlation Coefficitn), RMSE (Root Mean Squared Error), MAE (Mean Absolute Erro) and NSE (Nash Sutcliffe Efficiency) between FLDAS's [Qair, SoilMoi, Swnet, Tair] and 15 CMIP6 obtained variables (5 GCM's and 3 SSP's). This task has been carried out using "Heatmap_Inputs.py" in "CMIP6 Dataset" folder of main repository. Outputs of this algorithm are saved in another folder in repository named "Heatmap".
+Heatmap has been employed As another graphical evaluator. In order to obtain this plot we first need to find the accuracy metrics such as R (Correlation Coefficitn), RMSE (Root Mean Squared Error), MAE (Mean Absolute Erro) and NSE (Nash Sutcliffe Efficiency) between FLDAS's [Qair, SoilMoi, Swnet, Tair] and 15 CMIP6 obtained variables (5 GCM's and 3 SSP's). This task has been carried out using "Heatmap_Inputs.py" in "CMIP6 Dataset" folder of main repository. Outputs of this algorithm are saved in another folder in repository named "Heatmap". Utilizing the "Heatmap.py" script in that folder will eventually leads to 4 Heatmap plots named after [HUS, RSDS, MRSO and TAS]. In these plots the GCM-SSP model which has Black cells or normalized values closer to 1.00 is considered to be and overall good representor of FLDAS's [Qair, SoilMoi, Swnet, Tair].
+![hus](https://user-images.githubusercontent.com/114182572/206518677-908f8dac-9b6b-4261-99e7-3db384a41f8f.jpg)
+![mrso](https://user-images.githubusercontent.com/114182572/206518694-dfc4dc0c-f4af-472f-be19-6d93cb924fb8.jpg)
+![rsds](https://user-images.githubusercontent.com/114182572/206518729-c16ff802-ce3b-4b07-9765-e8d55ccbb086.jpg)
+![tas](https://user-images.githubusercontent.com/114182572/206518749-06c575b9-b657-4287-98b7-500c2c73d8c6.jpg)
+
+
+
 
