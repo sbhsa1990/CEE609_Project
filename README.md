@@ -22,4 +22,7 @@ In next stage, the projected NC files for each of these four parameters have bee
 
 The correspondong CMIP6 variables to [Qair, SoilMoi, Swnet, Tair] are respectively HUS, MRSO, RSDS and TAS. for each of these varibale the (Shared Socioeconomic Pathways) SSPs-1, -2 and -3 have been cosidered which somehow denote the good, mild and bat future scenarios. The output of CMIP6 are listed in "CMIP6 Dataset" folder in main repository.
 
-Next, we need to find out which CMIP6 SSPs are in better correlation with FLDAS's [Qair, SoilMoi, Swnet, Tair]. This task is carried out by utilizong the Scatter-plot visualization metric which represented as "Scatter_plot.py"
+Next, we need to find out which CMIP6 SSPs are in better correlation with FLDAS's [Qair, SoilMoi, Swnet, Tair]. This task is carried out by utilizong the Scatter-plot visualization metric which represented as "Scatter_plot.py".
+
+Heatmap has been employed As another graphical evaluator. In order to obtain this plot we first need to find the accuracy metrics such as R (Correlation Coefficitn), RMSE (Root Mean Squared Error), MAE (Mean Absolute Erro) and NSE (Nash Sutcliffe Efficiency) between FLDAS's [Qair, SoilMoi, Swnet, Tair] and 15 CMIP6 obtained variables (5 GCM's and 3 SSP's). This task has been carried out using "Heatmap_Inputs.py" in "CMIP6 Dataset" folder of main repository. Outputs of this algorithm are saved in another folder in repository named "Heatmap".
+
