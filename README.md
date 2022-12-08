@@ -16,3 +16,7 @@ Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and als
 
 This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm. The Gradient Boosting classification has been employed form the "Scikit-Learn" and the parameters have been optimized so that the best results could be achieved. Next, Using the "Combination_Analysis.py" pythone code the most optimal combination of our initial 10 input has been extracted based on Precision, Recall, Balanced accuracy and F1 score classification accuracy metrics.
 
+
+
+Figures
+to find the correlation between the CMIP6 outpus and FLDAS best variables Scatter-plot visualization metric has been utilized which represented as "Scatter_plot.py"
