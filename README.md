@@ -25,7 +25,8 @@ The correspondong CMIP6 variables to [Qair, SoilMoi, Swnet, Tair] are respective
 Next, we need to find out which CMIP6 SSPs are in better correlation with FLDAS's [Qair, SoilMoi, Swnet, Tair]. This task is carried out by utilizong the Scatter-plot visualization metric which represented as "Scatter_plot.py".
 
 Heatmap has been employed As another graphical evaluator. In order to obtain this plot we first need to find the accuracy metrics such as R (Correlation Coefficitn), RMSE (Root Mean Squared Error), MAE (Mean Absolute Erro) and NSE (Nash Sutcliffe Efficiency) between FLDAS's [Qair, SoilMoi, Swnet, Tair] and 15 CMIP6 obtained variables (5 GCM's and 3 SSP's). This task has been carried out using "Heatmap_Inputs.py" in "CMIP6 Dataset" folder of main repository. Outputs of this algorithm are saved in another folder in repository named "Heatmap". Utilizing the "Heatmap.py" script in that folder will eventually leads to 4 Heatmap plots named after [HUS, RSDS, MRSO and TAS]. In these plots the GCM-SSP model which has Black cells or normalized values closer to 1.00 is considered to be and overall good representor of FLDAS's [Qair, SoilMoi, Swnet, Tair].
-![Heatmaps](https://user-images.githubusercontent.com/114182572/206520071-aa6e7050-1068-4bd7-b206-2bde24433b34.jpg)
+![Heatmaps](https://user-images.githubusercontent.com/114182572/206520323-930d21ff-f1d6-468e-8ff9-f607cdd6e165.jpg)
+
 
 
 
