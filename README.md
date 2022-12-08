@@ -16,7 +16,10 @@ Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and als
 
 This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm. The Gradient Boosting classification has been employed form the "Scikit-Learn" and the parameters have been optimized so that the best results could be achieved. Next, Using the "Combination_Analysis.py" pythone code the most optimal combination of our initial 10 input has been extracted based on Precision, Recall, Balanced accuracy and F1 score classification accuracy metrics.
 
+** Update **
+The optimal model proved to has combination of [Qair, SoilMoi, Swnet, Tair] which respectively are specific humidity, soil moisture content @ 10cm, surface downwelling shortwave flux in air and air temperature.
+In next stage, the projected NC files for each of these four parameters have been downloaded from CMIP6 platform using (https://esgdata.gfdl.noaa.gov/search/cmip6-gfdl/). These projections are mainly from 2020 to 2100, however, we are only interested in 2030 to 2060 as near future horizon.
 
+The correspondong CMIP6 variables to [Qair, SoilMoi, Swnet, Tair] are respectively HUS, MRSO, RSDS and TAS. for each of these varibale the (Shared Socioeconomic Pathways) SSPs-1, -2 and -3 have been cosidered which somehow denote the good, mild and bat future scenarios. The output of CMIP6 are listed in "CMIP6 Dataset" folder in main repository.
 
-Figures
-to find the correlation between the CMIP6 outpus and FLDAS best variables Scatter-plot visualization metric has been utilized which represented as "Scatter_plot.py"
+Next, we need to find out which CMIP6 SSPs are in better correlation with FLDAS's [Qair, SoilMoi, Swnet, Tair]. This task is carried out by utilizong the Scatter-plot visualization metric which represented as "Scatter_plot.py"
