@@ -18,11 +18,14 @@ This dataset ("Inputs_dataset.xlsx") is then used as the input of "Gradient_Boos
 
 In order to compare the results of GBC, two other widely used machine learning algorithms known as Random Forest and Extra Tree classifiers are employed for comparison purposes only. To apply these three ensemble algorithms, the Scikit-Learn (SKlearn) machine learning library of Python programming language has been employed. The ensemble sub-category of SKlearn provides various regression and classification algorithm which operates based on tuning of several parameters.
 
-sklearn.ensemble.GradientBoostingClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier]
+sklearn.ensemble.GradientBoostingClassifier : 
+[https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier]
 
-sklearn.ensemble.RandomForestClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier]
+sklearn.ensemble.RandomForestClassifier : 
+[https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier]
 
-sklearn.ensemble.ExtraTreesClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html#sklearn.ensemble.ExtraTreesClassifier]
+sklearn.ensemble.ExtraTreesClassifier : 
+[https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html#sklearn.ensemble.ExtraTreesClassifier]
 
 
 
