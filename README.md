@@ -16,6 +16,15 @@ Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and als
 # Train the classification algorithm
 This dataset ("Inputs_dataset.xlsx") is then used as the input of "Gradient_Boosting_classification.py" as the classification algorithm. The Gradient Boosting classification has been employed form the "Scikit-Learn" and the parameters have been optimized so that the best results could be achieved. Next, Using the "Combination_Analysis.py" pythone code the most optimal combination of our initial 10 input has been extracted based on Precision, Recall, Balanced accuracy and F1 score classification accuracy metrics.
 
+In order to compare the results of GBC, two other widely used machine learning algorithms known as Random Forest and Extra Tree classifiers are employed for comparison purposes only. To apply these three ensemble algorithms, the Scikit-Learn (SKlearn) machine learning library of Python programming language has been employed. The ensemble sub-category of SKlearn provides various regression and classification algorithm which operates based on tuning of several parameters.
+
+sklearn.ensemble.GradientBoostingClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier]
+
+sklearn.ensemble.RandomForestClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier]
+
+sklearn.ensemble.ExtraTreesClassifier : [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html#sklearn.ensemble.ExtraTreesClassifier]
+
+
 
 # Produce figures to find correlation between FLDAS and CMIP6
 The optimal model proved to has combination of [Qair, SoilMoi, Swnet, Tair] which respectively are specific humidity, soil moisture content @ 10cm, surface downwelling shortwave flux in air and air temperature.
