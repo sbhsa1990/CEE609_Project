@@ -30,9 +30,16 @@ Heatmap has been employed As another graphical evaluator. In order to obtain thi
 ![Heatmaps - Copy - Copy](https://user-images.githubusercontent.com/114182572/206520475-96d82f14-b23a-4009-be18-3a2dbf5a3650.jpg)
 
 # Future projections
+Based on our figures the following GCM's as well as SSP's are best simulators of FLDAS's [Qair, SoilMoi, Swnet, Tair]:
+Qair:    HUSS-MIROC06-SSP245
+SoilMoi: MRSO-MIROC06-SSP370
+Swnet:   RSDS-MIROC06-SSP370
+Tair:    TAS -MIROC06-SSP370
 
+For future projections we only consider 305 point in Historical period with High Confidence (HC) level. Geographic characteritics of these 305 point are described in file "Only_305_HC_points.xlsx".
 
+![305](https://user-images.githubusercontent.com/114182572/208026197-35c19075-4152-44f6-b170-b514485d1d8f.jpg)
 
-
+Knowing location of our 305 points and the best GCM's, the corresponding variables of [Qair, SoilMoi, Swnet, Tair] were extracted from MIROC06-SSP245 and then used in the "Gradient_Boosting_ classification.py" to forecast the future fire confidence level.
 
 
