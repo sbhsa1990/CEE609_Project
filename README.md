@@ -36,10 +36,17 @@ SoilMoi: MRSO-MIROC06-SSP370
 Swnet:   RSDS-MIROC06-SSP370
 Tair:    TAS -MIROC06-SSP370
 
-For future projections we only consider 305 point in Historical period with High Confidence (HC) level. Geographic characteritics of these 305 point are described in file "Only_305_HC_points.xlsx".
+For future projections we only consider 305 point in Historical period with High Confidence (HC) level. Geographic characteritics of these 305 point are described in file "Only_305_HC_points.xlsx" under the folder [CEE609_Project/Future projections/]![Untitled-10](https://user-images.githubusercontent.com/114182572/208133537-d24a3f80-ea4f-4fa9-b2e7-175ef78f6343.jpg)
+.
 
 ![305](https://user-images.githubusercontent.com/114182572/208026197-35c19075-4152-44f6-b170-b514485d1d8f.jpg)
 
-Knowing location of our 305 points and the best GCM's, the corresponding variables of [Qair, SoilMoi, Swnet, Tair] were extracted from MIROC06-SSP245 and then used in the "Gradient_Boosting_ classification.py" to forecast the future fire confidence level.
+Knowing location of our 305 points and the best GCM's, the corresponding variables of [Qair, SoilMoi, Swnet, Tair] were extracted from MIROC06-SSP245 and then used in the "Gradient_Boosting_ classification.py" [] to forecast the future fire confidence level. 
+
+This resulted in a new extracted DataFrame called "305_Point_Future_Firemask.xlsx" which located under the folder [CEE609_Project/Future projections/]. Obtaining this DataFrame it has been used as the input of code called "Future_Fire (time_series_plot).py" and the time-series plot has been obtained in both mothly and annual basis.
+
+[https://github.com/sbhsa1990/CEE609_Project/blob/main/Future%20projections/Future_Fire%20(time_series_plot).py]
+
+
 
 
