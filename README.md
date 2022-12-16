@@ -16,7 +16,7 @@ Using the "Files_location.xlsx" as the output of "Extract_From_MODIS.py" and als
 
 This dataset is then used as the input of "Gradient_Boosting_ classification.py" as the classification algorithm. The Gradient Boosting classification has been employed form the "Scikit-Learn" and the parameters have been optimized so that the best results could be achieved. Next, Using the "Combination_Analysis.py" pythone code the most optimal combination of our initial 10 input has been extracted based on Precision, Recall, Balanced accuracy and F1 score classification accuracy metrics.
 
-** Update **
+# Produce figures to find correlation between FLDAS and CMIP6
 The optimal model proved to has combination of [Qair, SoilMoi, Swnet, Tair] which respectively are specific humidity, soil moisture content @ 10cm, surface downwelling shortwave flux in air and air temperature.
 In next stage, the projected NC files for each of these four parameters have been downloaded from CMIP6 platform using (https://esgdata.gfdl.noaa.gov/search/cmip6-gfdl/). These projections are mainly from 2020 to 2100, however, we are only interested in 2030 to 2060 as near future horizon.
 
